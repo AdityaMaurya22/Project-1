@@ -1,0 +1,810 @@
+.brand_name{
+    color: white;
+    font-size: 45px;
+}
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e93810;
+    padding: 5px;
+}
+
+.navbar_content{
+    padding-left: 20%;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+a{
+    color:white;
+    transition: color 0.5;
+}
+
+.nav a:hover{
+    background-color: transparent !important;
+}
+
+.navbar_icons {
+    font-size: 20px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.navbar_icons>li{
+    margin-right: 10px;
+}
+
+.carousel_top{
+    padding:0px
+}
+
+.inner_img{
+    background-image: url(office_img.jpg);
+    height:500px;
+    object-fit: cover;
+    width: 100% !important;
+    background-position: center;
+
+}
+.inner_img::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity: 0.8;
+    float:left;
+}
+
+.carousel_caption {
+    text-align: center;
+    margin-top: 135px;
+    position: relative;
+    z-index: 9999999999999999;
+    color:white;
+}
+
+.carousel_caption h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.carousel_caption p{
+    font-size: 17px;
+}
+
+.button_grid{
+    display:grid;
+    grid-template-columns: auto auto;
+    padding:0;
+    column-gap: 10px;
+    width:30%;
+    margin:0 auto;
+    margin-top:10px;
+    position:relative;
+    z-index: 99999999999999;
+}
+
+.grid_button1 button{
+    background-color: #3f3d88;
+    border-radius: 0px;
+    width:170px;
+    height:50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.grid_button1 button:hover{
+    color:white;
+    background-color: red;
+}
+
+.grid_button2 button{
+    background-color: red;
+    border-radius: 0px;
+    width:170px;
+    height:50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.grid_button2 button:hover{
+    color:white;
+    background-color: #3f3d88;
+}
+
+.carousel_btn{
+    border-radius: 0px;
+    
+}
+
+.about_us{
+    margin-top: 90px;
+}
+
+.aboutus_img img{
+    width: 100%;
+}
+
+.aboutus_r{
+    margin-top: 3%;
+}
+
+.aboutus_head h1{
+    font-size: 40px;
+    color:black;
+    font-weight: bold;
+}
+
+.aboutus_text p{
+    font-size: 16px;
+    color:black;
+    margin-top: 25px;
+}
+
+.aboutus_btn button{
+    width: 140px;
+    height: 50px;
+    background-color: red;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 0px;
+    color: white;
+}
+
+.aboutus_btn button:hover{
+    background-color: #3f3d88;
+    color:white;
+}
+
+.blog_bgimg{
+    margin-top:90px;
+    background-image: url(blog_office_img.jpg);
+    width:100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.blog_head h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    z-index: 9999999999999;
+    position: relative;
+}
+
+.blog_r{
+    margin-top: 10%;
+}
+
+.blog_text p {
+    color: white;
+    font-size: 16px;
+    margin-top: 25px;
+    z-index: 99999999999999999;
+    position: relative;
+}
+
+.blog_btn button{
+    width: 160px;
+    height: 50px;
+    background-color: red;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 0px;
+    color: white;
+    z-index: 999999999999999999;
+    position: relative
+}
+
+.blog_btn button:hover{
+    background-color: white;
+    color:black;
+}
+
+.play_icon_row{
+    margin-top: 50%;
+    text-align: center;
+}
+.play_icon{
+    position: relative;
+    z-index: 9999999999;
+    text-align: center;
+}
+.play_icon img{
+    width:79px;
+    
+}
+
+.play_icon::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    width: 90px;
+    height: 90px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 100%;
+    animation: fadeEffect 1.3s infinite ease;
+    box-shadow: 0px 0px 10px 0px;
+    right: 0px;
+    margin: 0 auto;
+    z-index: -1;
+}
+@keyframes fadeEffect{
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0;
+    }
+}
+
+
+.blog_bgimg::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46 37 90 / 82%);
+    opacity: 1.0;
+    z-index: 9999999999999999 !important;
+    float:left;
+}
+
+.services_head h1{
+    font-weight: bold;
+    color:black;
+    font-size:40px;
+}
+
+.services_head p{
+    font-size:15px;
+}
+
+.services{
+    margin-top:50%;
+}
+.social_media_card{
+    margin-top: 40px;
+}
+.social_media_card .border_services{
+    border: 2px solid black;
+    padding: 30px;
+    width: 50%;
+}
+.social_media_card img{
+    width: 100%;
+}
+
+.social_media_card button{
+    border-radius: 0px;
+    background-color: transparent;
+    color:#000;
+    width: 120px;
+    height: 45px;
+}
+
+.social_media_card button:hover{
+    background-color: #ff0000;
+    color:white;
+}
+.first_btn{
+    background-color: #ff0000 !important;
+    color:white !important;
+}
+.latest_news{
+    margin:90px 90px 0px 90px;
+}
+
+.latest_news_head h1{
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+
+.latest_news_head p{
+    font-size: 15px;
+}
+
+.comment_ln{
+    margin: 0px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px 0px;
+    padding:25px;
+}
+
+.comment_ln h3{
+    margin-left: 0px;
+    font-weight: 600;
+}
+
+.comment_ln_icon{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.comment_ln_icon p{
+    color: lightgray;
+    font-size: 15px;
+}
+
+.comment_ln_icon i{
+    color:lightgray;
+    font-size: 20px;
+}
+
+.comment_ln_text{
+    color:black;
+    font-size: 18px;
+    padding-right: 35px;
+}
+
+.comment_ln_button button{
+    background-color: #3f3d88;
+    border-radius: 0px;
+    color:white;
+    width: 165px;
+    height:50px;
+    margin-top:25px
+}
+
+.comment_ln_button button:hover{
+    background-color: #e93810;
+    color:white;
+}
+
+.date_text{
+    width: 60px;
+
+    font-size: 15px;
+    color: #fcfcfc;
+    margin: 70px auto;
+    position: absolute;
+    right: 0px;
+    top: 140px;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #e93810;
+}
+
+.testimonial{
+    margin:90px 90px 0px 90px;
+}
+
+.testimonial_head h1{
+    font-size: 40px;
+    font-weight:800;
+    color:black;
+}
+
+.carousel_bottom{
+    padding:0px;
+}
+
+.grid_1{
+    width:100%;
+}
+
+.customer_card{
+    margin-top: 75px;
+    margin: 10px;
+}
+
+.customer_img img{
+    padding: 35px;
+}
+
+.customer_name{
+    margin-top: 50px;
+}
+
+.customer_name p{
+    color:#3f3d88;
+}
+
+.customer_text{
+    font-size: 17px;
+    padding: 0px 30px 0px 30px;
+}
+
+.customer_card {
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.contact_us{
+    margin:90px 90px 0px 90px;
+}
+.contact_us_head h1{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.contact_us_form{
+    margin-top:50px;
+}
+
+.contact_us_form input,textarea{
+    margin-top: 40px;
+    background-color: #d3d3d340;
+    height: 50px;
+    border-radius: 0px;
+    width:100%
+}
+
+.contact_us_button button{
+    background-color: red;
+    color:white;
+    border-radius: 0px;
+    width:120px;
+    height:45px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.contact_us_button button:hover{
+    background-color: #3f3d88;
+    color:white;
+}
+
+.contact_us_form textarea{
+    height:106px;
+}
+
+.footer{
+    width: 100%;
+    background-color: #000000;
+    height: auto;
+    padding: 90px 0px;
+    margin-top: 90px;
+    padding-bottom: 10px;
+}
+.footer a:hover{
+    color:red;
+}
+
+.contact_us_list ul,li{
+    list-style-type:none;
+    font-size: 15px;
+    color:white;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.contact_us_list a{
+    text-decoration: none;
+}
+
+.contact_us_list{
+    padding-left: 0px;
+}
+
+.footer_heading{
+    color:white;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left:0px;
+}
+
+.social_media_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0px;
+    column-gap: 10px;
+    width: 75%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.quick_link ul,li{
+    padding-left:0px;
+}
+
+.quick_link{
+    padding:0px;
+}
+
+.quick_link a{
+   text-decoration: none;
+}
+
+.info_text{
+    padding:0px;
+    color:white;
+    font-size: 15px;
+    padding-right: 175px;
+}
+
+.subscribe_form>*{
+    margin-top: 10px;
+}
+
+.subscribe_form{
+    padding:0px;
+}
+
+.subscribe_form input{
+    border-radius: 0px;
+    background-color: #000000;
+    border-color:black ;
+    border-bottom-color: white;
+    padding-left: 0px;
+    color:white;
+}
+
+.subscribe_btn button{
+    background-color: red;
+    border-radius: 0px;
+    height: 45px;
+    width:263px;
+    color:white;
+    font-size:22px;
+    margin-top:10px;
+}
+
+.subscribe_btn button:hover{
+    background-color: #3f3d88;
+    color:white;
+}
+
+.subscribe_btn{
+    padding: 0px;
+}
+
+.footer_line{
+    margin-top: 50px;
+}
+
+.copy_right_footer p{
+    color:white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.copy_right_footer span:hover{
+    color:red;
+}
+
+.testimonial_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    margin-top: 65px;
+    padding:0px 30px;
+}
+
+@media(max-width:768px){
+    .navbar_icons{
+        padding-right: 0px;
+    }
+
+    .navbar_content{
+        padding-left:0px;
+    }
+
+    .button_grid {
+        width: 100%;
+    }
+
+    .container{
+        width:100%;
+    }
+
+    .aboutus_head h1 {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+    .aboutus_text p {
+        font-size: 10px;
+        color: black;
+        margin-top: 0px;
+    }
+
+    .aboutus_btn button {
+        width: 120px;
+        height: 40px;
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    
+    .blog_btn button {
+        width: 140px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .blog_head h1 {
+        font-size: 35px;
+    }
+
+    .blog_text p{
+        font-size: 13px;
+    }
+
+    .services {
+        margin-top: 96%;
+    }
+
+    .social_media_card .border_services {
+        padding: 15px;
+        width: 35%;
+    }
+
+    .social_media_card{
+        margin-top: 0px;
+    }
+
+    .card{
+        margin-top: 30px;
+    }
+
+    .footer{
+        padding: 30px 30px;
+    }
+
+    .social_media_grid{
+        width: 60%;
+        font-size: 30px;
+    }
+
+    .subscribe_form input{
+        width:263px;
+    }
+
+    .testimonial_grid{
+        padding:0px 0px !important;
+    }
+
+    .play_icon{
+        margin-top:55px;
+    }
+
+    .play_icon::before{
+        margin:0px auto;
+    }
+
+    .copy_right_footer{
+        margin-top:15px;
+    }
+
+    .customer_name {
+        margin-top: 0px;
+        padding: 0px 30px;
+    }
+}    
+
+@media(max-width:480px){
+    .button_grid{
+        width: 100%;
+    }
+
+    .navbar_content{
+        padding-left:0px;
+    }
+
+    .aboutus_img img{
+        margin-top:35px;
+    }
+
+    .services{
+        margin-top:155%;
+    }
+
+    .social_media_card .border_services {
+        border: 2px solid black;
+        padding: 20px;
+        width: 30%;
+    }
+    
+    .social_media_card{
+        margin-top:30px;
+    }
+
+    .card{
+        margin-top:20px;
+    }
+
+    .latest_news{
+        margin: 90px 10px 0px 10px;
+    }
+
+    .testimonial {
+        margin: 90px 10px 0px 10px;
+    }
+
+    .contact_us {
+        margin: 90px 30px 0px 30px;
+    }
+
+    .footer{
+        padding:30px 30px;
+    }
+
+    .social_media_grid{
+        width:50px;
+    }
+
+    .subscribe_form input{
+        width:263px;
+    }
+
+    .social_media_card .border_services {
+        border: 2px solid black;
+        padding: 20px;
+        width: 50%;
+    }
+
+    .play_icon {
+        margin-top: 140px;
+    }
+
+    .info_text {
+        padding: 0px;
+        color: white;
+        font-size: 15px;
+        padding-right: 60px;
+    }
+
+    .subscribe_form input{
+        width:200px;
+    }
+
+    .subscribe_btn button{
+        width:200px;
+    }
+
+    .aboutus_img {
+        margin-top: 50px;
+    }
+
+    .aboutus_img img {
+        margin-top: 0px;
+    }
+
+    .customer_name {
+        margin-top: 0px;
+        padding: 0px 15px;
+    }
+
+    .customer_text {
+        font-size: 17px;
+        padding: 0px 15px;
+    }
+
+    .social_media_grid{
+        column-gap: 30px;
+    }
+}
+
+.navbar_button{
+    background-color: white;
+    border-radius: 0px;
+}
+
+.navbar_button span{
+    background-color:black;
+}
+
+.carousel_control2{
+    width: 0%;
+}
+
+.testimonial_grid{
+    padding:0px 75px;
+}
+
+.carousel_inner2{
+    margin-top: 50px;
+    padding:0px 20px;
+}
